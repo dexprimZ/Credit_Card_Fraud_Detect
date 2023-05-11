@@ -59,6 +59,8 @@ y = new_data['Class']
 X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.20,
                                                  random_state=42)
 
+'''Logistic Regression'''
+
 log = LogisticRegression()
 log.fit(X_train,y_train)
 
@@ -73,6 +75,8 @@ recall_score(y_test,y_pred1)
 
 f1_score(y_test,y_pred1)
 
+''' Decision Tree Classifier '''
+
 dt = DecisionTreeClassifier()
 dt.fit(X_train,y_train)
 
@@ -85,6 +89,8 @@ precision_score(y_test,y_pred2)
 recall_score(y_test,y_pred2)
 
 f1_score(y_test,y_pred2)
+
+''' Random Forest Classifier'''
 
 rf = RandomForestClassifier()
 rf.fit(X_train,y_train)
@@ -120,6 +126,8 @@ y_res.value_counts()
 X_train,X_test,y_train,y_test = train_test_split(X_res,y_res,test_size=0.20,
                                                  random_state=42)
 
+'''Logistic Regression - scores'''
+
 log = LogisticRegression()
 log.fit(X_train,y_train)
 
@@ -133,6 +141,8 @@ recall_score(y_test,y_pred1)
 
 f1_score(y_test,y_pred1)
 
+'''Decision Tree Classifier - scores'''
+
 dt=DecisionTreeClassifier()
 dt.fit(X_train,y_train)
 
@@ -145,6 +155,8 @@ precision_score(y_test,y_pred2)
 recall_score(y_test,y_pred2)
 
 f1_score(y_test,y_pred2)
+
+'''Random Forest Classifier - scores'''
 
 rf = RandomForestClassifier()
 rf.fit(X_train,y_train)
@@ -169,7 +181,7 @@ final_data
 
 sns.barplot(final_data['Models'],final_data['ACC'])
 
-"""Save the model"""
+"""Saving model......"""
 
 rf1 = RandomForestClassifier()
 rf1.fit(X_res,y_res)
@@ -183,6 +195,8 @@ model = joblib.load("credit_card_model")
 pred = model.predict([[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]])
 
 if pred == 0:
-    print("Legit Transcation")
+    print("Legit Transaction")
 else:
-    print("Fraud Transcation")
+    print("Fraud Transaction")
+        
+    
