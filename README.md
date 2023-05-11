@@ -19,7 +19,7 @@ UI ver. 2
 
 # Output: 
 </br>
-<img width="297" alt="outCCFD" src="https://github.com/dexprimZ/Credit_Card_Fraud_Detect/assets/110420696/771a37d2-646b-4b64-9566-23c3971a3282">
+<img width="258" alt="outCCFD" src="https://github.com/dexprimZ/Credit_Card_Fraud_Detect/assets/110420696/f4085e5c-92a4-4fde-bfc3-1b6af91c83a5">
 
 </br>
 </br>
