@@ -14,8 +14,15 @@ UI ver. 2
 
 <img width="728" alt="appV2" src="https://github.com/dexprimZ/credit_Card_Fraud_Detect/assets/110420696/eea301b2-f2a4-4d10-b096-fbdbb14589ad">
 
+</br>
+</br>
 
+# Output: 
+</br>
+<img width="297" alt="outCCFD" src="https://github.com/dexprimZ/Credit_Card_Fraud_Detect/assets/110420696/771a37d2-646b-4b64-9566-23c3971a3282">
 
+</br>
+</br>
 </br>
 
 Dataset Link - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
